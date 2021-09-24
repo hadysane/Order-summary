@@ -83,7 +83,10 @@ img.hero {
 
 .sub a {
     color :var(--PrimaryDark); 
-    text-decoration : underline;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
 }
 
 .sub a:hover{
@@ -107,9 +110,18 @@ img.hero {
     font-size: 16px;
     margin-bottom: 6px;
     margin-top: 0px;
+    color: var(--Darkblue);
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+
 }
 .sub__plan p{
     margin: 0;
+    color :#717FA6;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
 }
 .sub__main a{
     justify-self: flex-end;
@@ -143,9 +155,12 @@ img.hero {
 }
 
 .bloc__footer a{
-    text-align: center;
+   text-align: center;
    color: var(--DesaturaBlue);
    text-decoration: none;
+   font-weight: 900;
+   font-size: 15px;
+   line-height: 20px;
 }
 
 .bloc__footer a:hover {
